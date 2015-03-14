@@ -123,7 +123,6 @@ cat("Residual Std Dev is :",Sres,"\n")
 {if (tobs.slp>=ttab.slp) cat("***Slope adjustment is recommended***",sep="","\n")
  else
    cat("***Slope adjustment in not necessary***",sep="","\n")}	
-#################################################################################
 ########## Tablas de Salida #####################################################
 res68<-subset(Table4,res<=abs(sep))
 N1<-length(res68[,4])
